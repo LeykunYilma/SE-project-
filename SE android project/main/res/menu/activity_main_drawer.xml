@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/additem"
+            android:title="Add Item" />
+
+        <item
+            android:id="@+id/viewitem"
+
+            android:title="View Item" />
+        <item
+            android:id="@+id/saleitem"
+
+            android:title="Sale Item" />
+        <item
+            android:id="@+id/tips"
+
+            android:title="Tips " />
+        <item
+            android:id="@+id/contactus"
+
+            android:title="Contact Us" />
+
+    </group>
+
+
+</menu>

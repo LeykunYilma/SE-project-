@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.digis.stockcard.www.stockcard.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="361dp"
+            android:layout_height="130dp"
+            android:layout_margin="50dp"
+            android:paddingRight="70dp"
+            app:srcCompat="@drawable/welcomelogo" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:fontFamily="cursive"
+            android:paddingLeft="150dp"
+            android:paddingTop="30dp"
+            android:text="Welcome"
+            android:textColor="#000000"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:fontFamily="cursive"
+            android:paddingLeft="180dp"
+            android:paddingTop="10dp"
+            android:text="To"
+            android:textColor="#000000"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:fontFamily="cursive"
+            android:paddingLeft="143dp"
+            android:paddingTop="10dp"
+            android:text="Stock Card"
+            android:textColor="#000000"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
